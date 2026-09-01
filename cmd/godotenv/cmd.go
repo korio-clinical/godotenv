@@ -6,7 +6,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/jl2501/godotenv/v4"
+	"github.com/korio-clinical/godotenv/v4"
 )
 
 func main() {

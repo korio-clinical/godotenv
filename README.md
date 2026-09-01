@@ -1,7 +1,7 @@
-# GoDotEnv ![CI](https://github.com/jl2501/godotenv/workflows/CI/badge.svg) [![Go Report Card](https://goreportcard.com/badge/github.com/jl2501/godotenv)](https://goreportcard.com/report/github.com/jl2501/godotenv) [![Go Reference](https://pkg.go.dev/badge/github.com/jl2501/godotenv.svg)](https://pkg.go.dev/github.com/jl2501/godotenv)
+# GoDotEnv ![CI](https://github.com/korio-clinical/godotenv/workflows/CI/badge.svg) [![Go Report Card](https://goreportcard.com/badge/github.com/korio-clinical/godotenv)](https://goreportcard.com/report/github.com/korio-clinical/godotenv) [![Go Reference](https://pkg.go.dev/badge/github.com/korio-clinical/godotenv.svg)](https://pkg.go.dev/github.com/korio-clinical/godotenv)
 
 > [!NOTE]
-> This is a fork of [https://github.com/joho/godotenv](https://github.com/joho/godotenv)
+> This is a clone of James Light's (jl2501) fork of [https://github.com/joho/godotenv](https://github.com/joho/godotenv)
 >
 > Exactly the same as the joho godotenv, only allows passing in an in-memory filesystem that implements the minimum number of methods needed for easier unit tests.
 
@@ -22,13 +22,13 @@ There is test coverage and CI for both linuxish and Windows environments, but I 
 As a library
 
 ```shell
-go get github.com/jl2501/godotenv
+go get github.com/korio-clinical/godotenv
 ```
 
 or if you want to use it as a bin command
 
 ```shell
-go install github.com/jl2501/godotenv/cmd/godotenv@latest
+go install github.com/korio-clinical/godotenv/cmd/godotenv@latest
 ```
 
 ## Usage
@@ -49,7 +49,7 @@ import (
     "log"
     "os"
 
-    "github.com/jl2501/godotenv"
+    "github.com/korio-clinical/godotenv"
 )
 
 func main() {
@@ -68,7 +68,7 @@ func main() {
 If you're even lazier than that, you can just take advantage of the autoload package which will read in `.env` on import
 
 ```go
-import _ "github.com/jl2501/godotenv/autoload"
+import _ "github.com/korio-clinical/godotenv/autoload"
 ```
 
 While `.env` in the project root is the default, you don't have to be constrained, both examples below are 100% legit

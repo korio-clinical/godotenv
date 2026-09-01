@@ -1,4 +1,4 @@
-module github.com/jl2501/godotenv/v4
+module github.com/korio-clinical/godotenv/v4
 
 go 1.23.0
 
